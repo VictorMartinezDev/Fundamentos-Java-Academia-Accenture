@@ -1,0 +1,34 @@
+package com.bootcamp.week1;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class StudentCart {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner =new Scanner(System.in);
+		
+		System.out.println("Bienvenido a tu configuración de carta de estudiante");
+		
+		System.out.println("Ingresa tu nombre completo:");
+		String nombre = scanner.nextLine();
+		
+		System.out.println("Ingresa tu edad:");
+		int edad = scanner.nextInt();
+		
+		System.out.println("Ingresa tu lenguaje de programacion favorito:");
+		String lenguajeFavorito = scanner.nextLine();
+		
+		System.out.println("**************************************"
+						 + "Nombre: " + nombre
+						 + "Edad: " + edad
+						 + "Lenguaje favorito: " + lenguajeFavorito
+						 + "Fecha: " + LocalDate.now());
+		
+		
+		
+		
+	}
+
+}
