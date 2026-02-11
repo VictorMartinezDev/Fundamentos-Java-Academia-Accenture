@@ -1,9 +1,0 @@
-package pruebaJava25;
-
-public class Principal {
-	
-	void main() {
-		IO.print("Hola mundo");
-	}
-
-}
