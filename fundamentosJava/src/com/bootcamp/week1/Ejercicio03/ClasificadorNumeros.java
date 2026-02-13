@@ -1,4 +1,4 @@
-package com.bootcamp.week1.Ejercicio03;
+package com.bootcamp.week1.ejercicio03;
 
 public class ClasificadorNumeros {
 

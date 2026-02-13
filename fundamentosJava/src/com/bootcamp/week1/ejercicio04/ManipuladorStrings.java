@@ -1,7 +1,5 @@
 package com.bootcamp.week1.ejercicio04;
 
-import java.time.Period;
-
 public class ManipuladorStrings {
 
     public static String invertir(String s) {
