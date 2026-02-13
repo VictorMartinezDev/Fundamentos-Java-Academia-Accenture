@@ -66,7 +66,7 @@ Este ejercicio demuestra la capacidad de Java para definir múltiples métodos c
 
 * **Función:** Utiliza un bucle **for-each** para recorrer una colección de números enteros y acumular su total. Es ideal para sumar una lista indeterminada de valores previamente agrupados.
 
-##Conceptos Clave Aprendidos
+## Conceptos Clave Aprendidos
 
 * **Polimorfismo Estático (Sobrecarga):** La capacidad del compilador para decidir qué método ejecutar basándose en la "firma" del método (nombre + parámetros).
 
@@ -78,7 +78,7 @@ Este ejercicio demuestra la capacidad de Java para definir múltiples métodos c
 
 Este programa tiene como objetivo realizar un análisis estadístico completo sobre un conjunto de números enteros almacenados en un arreglo. A través de un único recorrido del array, el código es capaz de extraer múltiples métricas como la frecuencia de tipos de números, valores extremos y medidas de tendencia central.
 
-###Lógica utilizada
+### Lógica utilizada
 
 ### ```clasificar(int[] numeros)```
 
@@ -235,7 +235,7 @@ Este ejercicio implementa un ecosistema de transporte utilizando una jerarquía 
 
 * **Uso de super:** Comunicación esencial entre clases hijas y padres para el manejo de constructores.
 
-##Conclusiones: Semana 1 - Fundamentos de Java
+## Conclusiones: Semana 1 - Fundamentos de Java
 
 Tras completar estos seis ejercicios prácticos, se han consolidado los pilares fundamentales para el desarrollo de software robusto con Java. Este proceso de aprendizaje ha evolucionado desde la sintaxis básica hasta el diseño de arquitecturas orientadas a objetos.
 
@@ -250,4 +250,5 @@ Tras completar estos seis ejercicios prácticos, se han consolidado los pilares 
 
 * **Polimorfismo y Herencia:** Implementación de jerarquías de clases y contratos mediante interfaces, permitiendo crear código escalable, mantenible y fácil de extender.
 
-Realizado por **Víctor Manuel Martínez Guerrero**
+Realizado por **Víctor Manuel Martínez Guerrero** 
+[Linkedin](https://www.linkedin.com/in/victormartinezdev/)
