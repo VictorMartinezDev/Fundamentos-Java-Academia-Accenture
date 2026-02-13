@@ -1,4 +1,4 @@
-package com.bootcamp.week1.herencia;
+package com.bootcamp.week1.ejercicio06;
 
 abstract class Vehiculo implements Arrancable {
     protected String marca;

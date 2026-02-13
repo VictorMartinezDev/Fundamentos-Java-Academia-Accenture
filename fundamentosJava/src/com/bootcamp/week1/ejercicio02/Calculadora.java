@@ -1,4 +1,4 @@
-package com.bootcamp.week1;
+package com.bootcamp.week1.ejercicio02;
 
 public class Calculadora {
 

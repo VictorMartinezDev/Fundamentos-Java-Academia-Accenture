@@ -1,4 +1,4 @@
-package com.bootcamp.week1.herencia;
+package com.bootcamp.week1.ejercicio06;
 
 class VehiculoElectrico extends Auto {
     private int autonomiaKm;

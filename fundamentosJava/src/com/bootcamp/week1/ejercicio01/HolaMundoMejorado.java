@@ -1,4 +1,4 @@
-package com.bootcamp.week1;
+package com.bootcamp.week1.ejercicio01;
 
 public class HolaMundoMejorado {
     public static void main(String[] args) {

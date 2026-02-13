@@ -1,4 +1,4 @@
-package com.bootcamp.week1;
+package com.bootcamp.week1.ejercicio05;
 
 import java.util.*;
 
