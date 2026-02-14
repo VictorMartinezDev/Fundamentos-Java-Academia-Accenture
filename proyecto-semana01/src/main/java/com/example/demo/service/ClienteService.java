@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.dto.ClienteResponseDto;
 import com.example.demo.entity.Cliente;
+import com.example.demo.exception.ClienteAlreadyExistsException;
 import com.example.demo.exception.ClienteNotFoundException;
 import com.example.demo.repository.ClienteRepository;
 
@@ -25,7 +26,13 @@ public class ClienteService {
 	//CREATE
 	public Cliente addCliente(Cliente cliente) {
 		
-		return clienteRepository.save(cliente);
+		if(clienteRepository.existsByNameAndNumberPhone(cliente.getName(), cliente.getNumberPhone())) {
+			throw new ClienteAlreadyExistsException("El cliente " + cliente.getName() +
+						" ya se encuentra registrado con el numero: " + cliente.getNumberPhone());
+		}
+		else return clienteRepository.save(cliente);
+		
+		
 	}
 	
 	//READ

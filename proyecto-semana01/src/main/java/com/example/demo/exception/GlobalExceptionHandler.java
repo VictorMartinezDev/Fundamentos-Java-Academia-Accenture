@@ -12,5 +12,10 @@ public class GlobalExceptionHandler {
 	public ResponseEntity<String> HandlerClienteNotFoundException(ClienteNotFoundException e){
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
 	}
+	
+	@ExceptionHandler(ClienteAlreadyExistsException.class)
+	public ResponseEntity<String> HandlerClienteAlreadyExistsException(ClienteAlreadyExistsException e){
+		return ResponseEntity.status(HttpStatus.UNPROCESSABLE_CONTENT).body(e.getMessage());
+	}
 
 }
